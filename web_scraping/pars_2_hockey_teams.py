@@ -5,10 +5,10 @@ import json
 # url = 'https://www.scrapethissite.com/pages/forms/'
 #
 # req = requests.get(url).text
-# with open('index.html') as file:
+# with open('index_hockey.html') as file:
 #     file.write(req)
 
-with open('index.html') as file:
+with open('index_hockey.html') as file:
     src = file.read()
 all = []
 headers = []
