@@ -1,4 +1,5 @@
 import random
+import time
 
 value = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A']
 value1 = {'2': 2, '3': 3, '4': 4, '5': 5, '6': 6, '7': 7, '8': 8, '9': 9, '10': 10, 'J': 10,
@@ -105,13 +106,13 @@ class Game:
 
     def dealer_plays(self):
         while sum(self.dealer.hand) < 17:
-
             self.dealer.hand.append(self.new_deck.draw())
+            print(f'dealer\'s hand[{value1[self.dealer.hand[0].x]}]: {self.dealer.hand[0]},{self.dealer_cards_hidden()}')
+            time.sleep(1)
             if sum(self.dealer.hand) > 21:
                 print(self.dealer)
                 print('dealer busted')
                 break
-            print(self.dealer)
 
     def round(self):
 
