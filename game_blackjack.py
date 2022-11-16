@@ -79,51 +79,76 @@ class Game:
         self.new_deck = new_deck
         self.new_deck.shuffle()
 
-
     def card_deal(self):
         x = input('would you like to take a card? Y/N\n')
         if x in ['y', 'Y', 'n', 'N']:
             if x == ('Y' and 'y'):
                 self.first_player.hand.append(self.new_deck.draw())
+                print(self.first_player)
+                if sum(self.first_player.hand) < 21:
+                    self.card_deal()
+                elif sum(self.first_player.hand) == 21:
+                    print('player won')
+
+                else:
+                    print('BUSTED')
+
+            else:
+                self.dealer_plays()
+
         else:
             print('Please answer Y or N')
             self.card_deal()
 
+    def dealer_cards_hidden(self):
+        return '|*|' * (len(self.dealer.hand) - 1)
+
+    def dealer_plays(self):
+        while sum(self.dealer.hand) < 17:
+
+            self.dealer.hand.append(self.new_deck.draw())
+            if sum(self.dealer.hand) > 21:
+                print(self.dealer)
+                print('dealer busted')
+                break
+            print(self.dealer)
+
     def round(self):
-        print(self.new_deck)
+
         self.dealer.hand.append(self.new_deck.draw())
-        print(self.dealer)
+        self.dealer.hand.append(self.new_deck.draw())
+
+        print(f'dealer\'s hand[{value1[self.dealer.hand[0].x]}]: {self.dealer.hand[0]},{self.dealer_cards_hidden()}')
+        self.first_player.hand.append(self.new_deck.draw())
         self.first_player.hand.append(self.new_deck.draw())
         print(self.first_player)
+        if sum(self.first_player.hand) == 21 and sum(self.dealer.hand) != 21:
+            print('BLACKJACK')
+        elif sum(self.first_player.hand) == 21 and sum(self.dealer.hand) == 21:
+            print('push')
+        else:
+            if sum(self.first_player.hand) < 21:
+                self.card_deal()
 
-        while sum(self.first_player.hand) < 21 and sum(self.dealer.hand) < 21:
-            self.card_deal()
+        print('-' * 35)
+        if sum(self.first_player.hand) < 21 and sum(self.dealer.hand) <= 21:
             print(self.first_player)
-            self.dealer.hand.append(self.new_deck.draw())
             print(self.dealer)
-            print('-'*20)
-            if sum(self.first_player.hand) == 21:
-                print('player won!')
-                break
-            if sum(self.first_player.hand) > 21:
-                print('dealer won!')
-                break
-            elif sum(self.dealer.hand) == 21:
-                print('dealer won.')
-                break
-            elif sum(self.dealer.hand) > 21:
-                print('player won.')
-                break
+            if sum(self.first_player.hand) > sum(self.dealer.hand):
+                print(f'player won by points {sum(self.first_player.hand)} vs {sum(self.dealer.hand)}')
+            elif sum(self.first_player.hand) == sum(self.dealer.hand):
+                print('push by points')
+            else:
+                print(f'dealer won by points {sum(self.dealer.hand)} vs {sum(self.first_player.hand)}')
 
 
 deck1 = Deck()
-print(deck1)
+
 deck1.shuffle()
-print(deck1)
 
 player = Player(1)
 dealer = Player(2)
 
-game = Game(player,dealer,deck1)
+game = Game(player, dealer, deck1)
 
 game.round()
