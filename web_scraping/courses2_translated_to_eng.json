@@ -1,0 +1,134 @@
+[
+    {
+        "title": "Course program programming in Python.Level 2. Advanced course",
+        "description": [
+            "Module 1. The concept of class.Inkapsulation class and an instance of class.These specimens, instance methods and properties of the copy.The concept of the attribute.Workshop: Creating a class and its copies.",
+            "Module 2. Inheritance the principle of duck typification.The concepts of the basic class and the derivative class.ISINSTANCE function and its application.Workshop: creating a derivative class, the use of copies of the basic and derivative class.",
+            "Module 3. Polymorphism and abstraction of the substitution of methods in a derivative class.The concept of an abstract class.Workshop: The use of polymorphic classes.",
+            "Module 4. Practical work",
+            "Module 5. Sort and search algorithms The main sorting and search algorithms.The concept of the complexity of the algorithm.Workshop.Search for information by a given criterion.",
+            "Module 6. Searching algorithms on columns Width Search.Search in depth.Workshop.Building a path in the column.",
+            "Module 7. Data structure The concept of data structure.List and recording as the main data structures.The table and other almost important data structures.Workshop.Presentation of records and tables in the program in Python.",
+            "Module 8. Standard abstract data types container types.Library modules Collections and Collections.ABC Workshop.Scheme \"Component-container\" and its application.",
+            "Module 9. Storage of data outside the program Preservation and recovery of data.Library module Pickle.The concept of object-designation.Workshop.Application of the Pickle module for storage and data transfer.",
+            "Module 10. Practical work"
+        ]
+    },
+    {
+        "title": "JavaScript course program.Level 7. Redux and React - Router",
+        "description": [
+            "Module 1. Third -party components Connection of third -party components Work with components",
+            "Module 2. Redux introduction of the action of gearboxes/Reduers of storage storage flow",
+            "Module 3. Routing in React Introduction React-Router-Dom Basic routing invested routes",
+            "Module 4. Additional opportunities animation additional information",
+            "Module 5. Practical work Creating a repository Creation of actions and gearboxes setting up routes"
+        ]
+    },
+    {
+        "title": "PostgreSQL course: Level 1. Fundamentals SQL",
+        "description": [
+            "Module 1. Introduction to PostgreSQL Overview of the main features of the POSTGRESQL database, its structure and main commands Overview of the PostgreSQL tools",
+            "Module 2. Designing the database and creating its primary structure Review of the table structure The main types of data used to create the columns of the concept of the concept of the primary and secondary key command Create Table Rules for the Data integrity.External key change in the structure of the index of presentation",
+            "Module 3. Data sampling (Select) simple request.Its basic possibilities arithmetic expressions in the sample use of the Describe command to output the structure of the table use of the Option option use of symbolic literals Option Order by",
+            "Module 4. Built -in functions postgreSQL numerical functions String functions of the function for working with the date of converting types of function Coalesce and related functions Operation CASE",
+            "Module 5. Implementation of financial arithmetic",
+            "Module 6. AGGGRATE FEARE OF THE Main AGGGET FUNCTION Option Group BY Option Having option",
+            "Module 7. Cross requests (Data from several tables) Cross -request structure Inner Join option Outer Join Connection of the table with itself subclasses Combining the result of the resulting sets",
+            "Module 8. Modification of data in the DBMS Add to the table using the Insert command Using the Update command to change the table lines Removing Data from the table using the Delete Command concept of transaction",
+            "Module 9. Connection to the DBMS from the application program The concept of a client library basic types of client libraries The concept of object-relief correspondence"
+        ]
+    },
+    {
+        "title": "JavaScript course program.Level 6. Library React.js",
+        "description": [
+            "Module 1. Introduction to React and JSX Introduction to the course tool what is React How to Start Work with React Laboratory Work: Installation CRA What is JSX Laboratory Work: Work with JSX",
+            "Module 2. Components React components React of components (PrOPS) Laboratory work: Creation of React Components Components Laboratory Work: Implementation of the composition subsidiaries (Props.children) File structure Testing and Assembly of the event in React",
+            "Module 3. The state in React components in the functional components condition in the class components Processing input in <lput /> Laboratory work: Working with the condition raising the condition of the hook useffect laboratory work: Raising the condition",
+            "Module 4. Additional material (if there is time) context and usecontext routing the implementation of the modal window display of goods in the Usereducer catalog Homework and completion of the course"
+        ]
+    },
+    {
+        "title": "JavaScript course program.Level 2. Expanded possibilities",
+        "description": [
+            "Module 1. In -depth work with functions methods Apply, Call, Bind Closing the recursion of the higher order functions Curula",
+            "Module 2. Methods of arrays MEP, FILTER, REDUCE Methods. Other methods",
+            "Module 3. Object model of browser Introduction to Bom/DOM Event HTML Pacific AIMS and RequestanimationFrame Interfaces Search for Elements and Collection",
+            "Module 4. Dom Document Object Model (DOM) Types of communication nodes between objects of property and methods of Document interfaces, the properties and methods of the Element Interface and Node Interface Detail/Collection Cloning CSS: Property STYLE and CLASSLIST GETBUNINGECT WINTENwith elements of shape",
+            "Module 5. Events sets and models of events The appointment of handlers receiving a link to the event of the abolition of the default to the abolition of the surfacing event delegation of their own events",
+            "Module 6. Practical work",
+            "Module 7. Introduction to asynchronous JS Promise Async/Awit Introduction to Fetch API",
+            "Module 8. Introduction to modules and node.js What is import/export modules what is node.js launch of scripts NPM package manager",
+            "Module 9. Testing and assembly Introduction to testing installation and configuration jest.js Writing and launch of tests installation Parsel.js setting assembly",
+            "Module 10. Practical work"
+        ]
+    },
+    {
+        "title": "JavaScript course program.Level 1. Fundamentals JavaScript",
+        "description": [
+            "Module 1. Fundamentals of programming, introduction to JavaScript (Ecmascript-262) Operations Operators Express and Instructions variables and constant manipulations with basic types of trivial types",
+            "Module 2. Control structures While Cycle Excrete Operators and DESCRECTION OF FOR CED CECHIL DO While Control structures IF - Else IF - Else interruption and continuation of the cycle control structure SWITCH Workshop: Practical application of control structures in JavaScript",
+            "Module 3. Functions The concept of functions declaration of functions Arguments Return Return of the Visibility area Function-exposure anonymous function workshop: Using functions in a procedural approach in programming",
+            "Module 4. Object Types Object Type: Object (Object) Object Methods Object Type: Array (Array) Property and Methods of Workshop functions: Using object types in JavaScript",
+            "Module 5. Object-oriented programming designers of objects of prototypes classes workshops: Application of an object-oriented approach in programming",
+            "Module 6. Additional information work with lines and String Error/Try/Catch REGEXP Work with JSON Review of other built -in objects"
+        ]
+    },
+    {
+        "title": "Course program GIT version management system",
+        "description": [
+            "Module 1. Systems for monitoring versions and their use by the developer the principles of operation of versa control systems Distributive features Git Introduction to GIT installation and initial setting GIT Workshop: Installation and initial configuration GIT",
+            "Module 2. Repository Git Creating, Changing and Removing the Repository View the History of Commitments Cancel Actions of the Tags Pseudonyms Workshops: Creation and Removing the Repository",
+            "Module 3. Vetitioning in GIT Principles of branching and merger control of branches Formation and resolution of conflicts to relocation of workshops: creation of branches, fusion, resolution of conflicts during fusion",
+            "Module 4. Using Git on the server installation Git on the server Settings Protocols Workshop: Installation Git on the server",
+            "Module 5. Distributed work in GIT Work processes Creating Commites Support for Workshop tools: Using tools",
+            "Module 6. Using GIT in other environment graphic utilities of the GitHub Workshop Medics: Using GitHub"
+        ]
+    },
+    {
+        "title": "Course program for programming and databases",
+        "description": [
+            "Module 1. Basic concepts and definitions task.The solution of the problem;Algorithm.Properties of algorithms;Program.Software;Informatics.Information.Information technology;Data.Numbers in arithmetic;Expressions.Operandas.Signs of operations.Identifiers.Constants;Laws of arithmetic (switching, associativity, distribution);",
+            "Module 2. Presentation of data.The principle of software management of the basics of the logic algebra;Reckoning systems;Connections between number systems;Basics of arithmetic of binary numbers;The principle of software management.The basic architecture and the structure of computers.The principle of von Neumann;Units of measurement of the capacity of storage devices;Representation of whole and material numbers in the memory of computers;The ranges of the presentation of numbers in the binary number system;Presenting symbolic information.Code tables;The concept of the type of data.",
+            "Module 3. Methodology and programming languages ​​Stages and stages of program development. Design. Implementation. Programming problems; Programming methodology. Classification of programming methodologies (structural, object-oriented, logical, functional, programming in restrictions). Structural programming. Basic principles (step -by -step details, modular structural programming); Object-oriented programming. Basic principles (abstraction; encapsulation; inheritance, polymorphism); Programming languages. Classification.",
+            "Module 4. Data structures. Basics of Database design basic data structures - arrays and records; Basic operations on data structures; Dynamic data structures. Lists. Stacks. Trees; Information system. The concept of a database. User requirements for databases; Database design; Goals and stages of design. Infological aspect. Model \"Essence-Slvation\". Datalog aspect. Data models (hierarchical, network, relational) their advantages and disadvantages. Relating databases. The concept of attitude. Normalization. Database management systems; Databases and computer networks. Network and distributed databases.",
+            "Module 5. Lab.P.1. Programming system.Stages of implementation of programs installation and configuration of a programming system in language C;Coding.Program structure in language C;Compilation and editing of connections;Implementation of the program in the system console;Development of the simplest programs in the programming language S. ad.Expressions.Format input-output of data.",
+            "Module 6. Lab.P.2. Fundamentals of structural coding.Management structures are followed as the simplest control structure.Conditional expressions as the basis for the formation of control structures.Relations and logical operations.Branching.Branch \"if\".Branch \"if it is,Repetition (cycles).Cycles with a precondition.Cycles with a postcryption.",
+            "Module 7. Lab.P.3. Projecting and implementation of the database design of the database analysis of the subject area.The allocation of entities and their attributes.Drawing up a universal attitude.Normalization.Implementation of the DBMS database Microsoft Access.The structure of the working space.Database objects.Tables, requests, reports, forms.Creating data tables in designer mode.The formation of requests.Binding of tables.Building reports.",
+            "Module 8. Lab.P.4. SECOUSES SQL for software extracting information from databases What is SQL?Short review.Formation of queries to databases on the example of the Microsoft Query program.Creation of the simplest request.SELECT operator.Qualified choice - WHERE offer.Request for several tables, as one."
+        ]
+    },
+    {
+        "title": "HTML and CSS course program.Level 1. Creating sites on HTML 5 and CSS 3",
+        "description": [
+            "Module 1. Introduction to HTML we find out what Hypertext Markup Language is and what it determines.We will discuss the basic concepts of the World Wide Web: Web page, web server.We will find out where to find a list of all HTML elements and learn to add markings to the usual text.We will find out what attributes are, and we will set them for some HTML elements on the page.We insert the symbols of copyright and trademark on the page, learn about what special symbols still exist.Syntax and semantics of HTML elements Laboratory work to create a site on the topic of classes",
+            "Module 2. The page structure will figure out when the elements of formatting the text are used, and when structural elements.We mark the Index.html page of our site and check the work on the validator.Let's work on the mistakes found on our page.Laboratory work to create a site on the topic of classes",
+            "Module 3. Creating hyperlinks and working with them remember the concept of hyperlinks and learn to insert elements of hyperlinks on our HTML pages.Let's talk about the differences in the recording of hyperlinks and learn to insert the necessary attributes (we will find out how to open the result in the new window).In laboratory work, we will create markings for the site menu.",
+            "Module 4. Fundamentals of cascading tables of CSS styles we learn options for setting styles on the page. In laboratory work, we will connect the style file for the page design. We discuss basic concepts: selector, property, cascade, inheritance, units of measurement. We will learn how to write the most common types of selectors, including selectors of pseudoles and pseudo -elements. Change the design of our pages: change the color of the page background and its text, select the font and set the design to individual parts of the text. Laboratory work to create a site on the topic of classes",
+            "Module 5. Placement of images, lists and tables will learn how to place media files on our pages - images.Consider the disordered and ordered lists and update the menu of your pages with their help.Let's see how to create tables and combine cells in them.We will get acquainted with CSS ones that will help you arrange the studied HTML elements.Laboratory work to create a site on the topic of classes",
+            "Module 6. iframe will learn how to integrate external files into the page.Let's talk about where our pages can be built with the HTML element <clime>.Consider the interaction of links with iframe elements.Laboratory work to create a site on the topic of classes",
+            "Module 7. Forms for data collection we find out why the forms are intended and made of web pages.Consider most of the HTML forms of the form: text fields, radio caps, flags/checkboxes, an element of selection of Select and their attributes.We will create a feedback form on our page and discuss how to carry out its processing.Laboratory work to create a site on the topic of classes",
+            "Module 8. Maceting of the page with CSS will learn to change the design of the boundaries, internal and external indentation of HTML elements (all options for properties, and there are many of them).We will find out how to set the width and height to the elements.We will touch the property of Float and make the necessary elements swim.We will learn how to control the appearance of an HTML element.Consider and apply individual values of the Display properties for placing elements in more complex models, including Inline-Block and Table-Cell.Laboratory work to create a site on the topic of classes",
+            "Module 9. Styles for printing and designing the mobile version of the site - @Media will create and connect styles for decorating our page when printing, let's talk about other uses @Media.Let's talk about the process of creating a mobile version of the site and write media requests (@Media queries) for our pages.We learn about the existence of other media properties.Laboratory work to create a site on the topic of classes",
+            "Module 10. Preparation, placement and support of the site on the network will learn why and how you can use the META element to accommodate meta-information on the pages.Let's see how to choose a hoster, hosting and place a site on the network using a FTP client.We will hear how to simplify the process of posting a site into the network.Laboratory work to create a site on the topic of classes",
+            "Module 11. Flexible work with the pages of the site will learn how to post sound and video files on our pages.We will discuss the concept of microstatic and checking its validity.We will touch the topic of generating the contents of the site on the fly on the server.Let's talk about dynamic work with HTML elements and CSS ones on the page in the browser.We determine whether the HTML5 API is needed for your project."
+        ]
+    },
+    {
+        "title": "Course program programming in Python.Level 1. Basic course",
+        "description": [
+            "Module 1. Installation Python, IDE, simple types of data installation of the Python and IDE interpreter.Improved data types: int, float, str, bool.Mathematical operations.The concept of Syntax Sugar.Data formatting: %, Str.Format (), F-Strings.Priorities of operations.Link model in Python, ID () function, IS operator.Import of additional modules, Math module.",
+            "Module 2. The conditional operator IF conditional operator if, a thornsary operator.Truthy (true) and false (false) meaning.Logical operators not, and, or, in, not in.Workshop and homework",
+            "Module 3. Sequences and cycles Line as a sequence.Indexes, sections (Slice).While and for cycle.Range data type.Nested cycles.Operator Break and Continue.Else block at While and For.None data type.",
+            "Module 4. List as a variable sequence list (list) as a variable sequence.List methods.Listed lists.List Comprehensions.Workshop and homework.",
+            "Module 5. Cortes, dictionaries and many motorcade (tuple) as a type of data.Methods of motorcies.Dictionary (dict) as a hash table.Dictionary methods.Set (SET).Much methods.Dictionary generators.Sets of sets.",
+            "Module 6. Functions The concept of function.The arguments of the function.Hinting and Doc String.Workshop and homework.",
+            "Module 7. Creating modules.Checking the idiomatic code of the command line arguments.Work with the SYS module.Creating modules, Sys.path.PIP - Python Pylint and Mypy package manager - Linter and Types check.",
+            "Module 8. Files, working with the file system with the OS module.Files and work with the file system in Python.",
+            "Module 9. Processing of exception exclusion, Try ... Except, Raise operator.Assert operator.Workshop and homework.",
+            "Module 10. Regular expressions regular expressions.Syntax, the basics of writing regions.Working with the RE module.",
+            "Module 11. Receiving data from different sources. Getting and processing data from different sources.CSV modules, json.Work with a database on the example of the SQLite3 module.Working with Excel files.Openpyxl module.",
+            "Module 12. Work with dates (optionally) work with dates on the example of the DateTime module work",
+            "Module 13. Final work"
+        ]
+    }
+]
