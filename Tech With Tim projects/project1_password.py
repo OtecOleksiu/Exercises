@@ -15,12 +15,10 @@ lgc_dct = {
 
 
 def main():
-    inpt()
     print(f'result:{logic()}')
 
 
 def inpt():
-    global pass_len, pass_symbols
     pass_len = input('enter password length: ')
     pass_symbols = input(
         'which symbols do you wanna use?\nDigits - 1\nLowercase letters - 2\nUppercase letters - 3\nSpecial symbols - 4\n').strip().replace(
@@ -33,17 +31,18 @@ def inpt():
 
 
 def logic():
+    x = inpt()
     result_lst = []
     tmp = ''
     try:
-        for j in set(pass_symbols):
+        for j in set(x[1]):
             tmp += f'{lgc_dct[int(j)]}'
     except Exception as _ex:
         tmp = ''
         print('enter valid numbers')
         main()
         quit()
-    for i in range(int(pass_len)):
+    for i in range(int(x[0])):
         result_lst.append(random.choice(tmp))
     return ''.join(result_lst)
 
